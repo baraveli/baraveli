@@ -32,6 +32,13 @@
                 We work on machine learning and also data visualization projects.           
             </p>
         </div>
+        
+         <div class="bg-gray-100 p-5 rounded hover:shadow cursor-pointer">
+            <p class="font-medium text-brand-900 pb-4 text-center">IOT and automation</p>
+            <p class="text-center font-normal text-gray-800">
+                We work on iot and home automation projects.           
+            </p>
+        </div>
        
     </div>
 
