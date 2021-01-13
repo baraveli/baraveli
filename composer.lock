@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d0c0458cd7bf0aa562d0e4f09f6d9d59",
+    "content-hash": "1afbd10cec188de3e931d104f69ac174",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -421,6 +421,70 @@
                 "validator"
             ],
             "time": "2020-08-08T21:28:19+00:00"
+        },
+        {
+            "name": "felixdorn/laravel-rickroll",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/felixdorn/laravel-rickroll.git",
+                "reference": "ece45a434d21e0e4f375c5feac959e8b2f6863e7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/felixdorn/laravel-rickroll/zipball/ece45a434d21e0e4f375c5feac959e8b2f6863e7",
+                "reference": "ece45a434d21e0e4f375c5feac959e8b2f6863e7",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/routing": ">=7.11",
+                "illuminate/support": ">=7",
+                "php": "^7.4"
+            },
+            "require-dev": {
+                "nunomaduro/larastan": "^0.5.8",
+                "orchestra/testbench": "^5.0",
+                "phpunit/phpunit": "^9.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "aliases": {
+                        "RickRoll": "Felix\\Rickroll\\Facades\\RickRoll"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Felix\\RickRoll\\": "src"
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Félix Dorn",
+                    "email": "hi@felixdorn.fr",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Redirects people trying to break your site to Never Gonna Give You Up.",
+            "homepage": "https://github.com/felixdorn/laravel-rickroll",
+            "keywords": [
+                "felixdorn",
+                "laravel-rickroll"
+            ],
+            "support": {
+                "issues": "https://github.com/felixdorn/laravel-rickroll/issues",
+                "source": "https://github.com/felixdorn/laravel-rickroll/tree/master"
+            },
+            "time": "2020-11-08T11:34:06+00:00"
         },
         {
             "name": "fideloper/proxy",
@@ -6569,12 +6633,14 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "felixdorn/laravel-rickroll": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
         "php": "^7.2.5"
     },
     "platform-dev": [],
-    "plugin-api-version": "1.1.0"
+    "plugin-api-version": "2.0.0"
 }
