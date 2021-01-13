@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Felix\Rickroll\Facades\RickRoll;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,4 +17,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-RickRoll::routes();
+Route::redirect('.env', 'https://www.youtube.com/watch?v=dQw4w9WgXcQ');
+Route::redirect('wp-login.php', 'https://www.youtube.com/watch?v=dQw4w9WgXcQ');
+Route::redirect('wp-admin', 'https://www.youtube.com/watch?v=dQw4w9WgXcQ');
+Route::redirect('.git', 'https://www.youtube.com/watch?v=dQw4w9WgXcQ');
+Route::redirect('composer.lock', 'https://www.youtube.com/watch?v=dQw4w9WgXcQ');
