@@ -25,6 +25,20 @@
                 Design and develop mobile application solutions.            
             </p>
         </div>
+        
+        <div class="bg-gray-100 p-5 rounded hover:shadow cursor-pointer">
+            <p class="font-medium text-brand-900 pb-4 text-center">Machine Learning and Data visualization</p>
+            <p class="text-center font-normal text-gray-800">
+                We work on machine learning and also data visualization projects.           
+            </p>
+        </div>
+        
+         <div class="bg-gray-100 p-5 rounded hover:shadow cursor-pointer">
+            <p class="font-medium text-brand-900 pb-4 text-center">IOT and Automation</p>
+            <p class="text-center font-normal text-gray-800">
+                We work on IOT and Automation projects.           
+            </p>
+        </div>
        
     </div>
 
