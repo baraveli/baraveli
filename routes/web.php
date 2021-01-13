@@ -25,4 +25,5 @@ Route::redirect('composer.lock', 'https://www.youtube.com/watch?v=dQw4w9WgXcQ');
 Route::redirect('config.py', 'https://www.youtube.com/watch?v=dQw4w9WgXcQ');
 Route::redirect('.htaccess', 'https://www.youtube.com/watch?v=dQw4w9WgXcQ');
 Route::redirect('.htpass', 'https://www.youtube.com/watch?v=dQw4w9WgXcQ');
+Route::redirect('yaameen-raaboaa-video-leaked', 'https://www.youtube.com/watch?v=dQw4w9WgXcQ');
 
