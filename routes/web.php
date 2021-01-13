@@ -17,5 +17,3 @@ use Felix\Rickroll\Facades\RickRoll;
 Route::get('/', function () {
     return view('welcome');
 });
-
-RickRoll::routes();
